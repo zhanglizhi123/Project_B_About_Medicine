@@ -13,6 +13,7 @@
 		C23D7D771BC3EF4D00C0F7DE /* TDnavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D761BC3EF4D00C0F7DE /* TDnavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D7A1BC3EFDA00C0F7DE /* ToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D791BC3EFDA00C0F7DE /* ToolController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D7D1BC3EFFA00C0F7DE /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */; settings = {ASSET_TAGS = (); }; };
+		C263FACF1BC41518004AE359 /* ZLZHelperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C263FACE1BC41518004AE359 /* ZLZHelperManager.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55A1BC4003400D416BB /* ChemistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54D1BC4003400D416BB /* ChemistModel.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55B1BC4003400D416BB /* ChemistThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54F1BC4003400D416BB /* ChemistThree.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55C1BC4003400D416BB /* ChemistTowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5511BC4003400D416BB /* ChemistTowModel.m */; settings = {ASSET_TAGS = (); }; };
@@ -21,6 +22,8 @@
 		C28FA55F1BC4003400D416BB /* DrugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5571BC4003400D416BB /* DrugModel.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA5601BC4003400D416BB /* DrugTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5591BC4003400D416BB /* DrugTwoModel.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA5641BC4042200D416BB /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5631BC4042200D416BB /* MineController.m */; settings = {ASSET_TAGS = (); }; };
+		C2A00E511BC414090096933E /* AreaHospitallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A00E4E1BC414090096933E /* AreaHospitallModel.m */; settings = {ASSET_TAGS = (); }; };
+		C2A00E521BC414090096933E /* NearHospitallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A00E501BC414090096933E /* NearHospitallModel.m */; settings = {ASSET_TAGS = (); }; };
 		C2D302DA1BC3C3E900E8F9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D302D91BC3C3E900E8F9E7 /* Assets.xcassets */; };
 		C2D302DD1BC3C3E900E8F9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D302DB1BC3C3E900E8F9E7 /* LaunchScreen.storyboard */; };
 		C2D302E81BC3C3E900E8F9E7 /* PocketMedicineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D302E71BC3C3E900E8F9E7 /* PocketMedicineTests.m */; };
@@ -111,6 +114,8 @@
 		C23D7D791BC3EFDA00C0F7DE /* ToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolController.m; sourceTree = "<group>"; };
 		C23D7D7B1BC3EFFA00C0F7DE /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
 		C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
+		C263FACD1BC41518004AE359 /* ZLZHelperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLZHelperManager.h; sourceTree = SOURCE_ROOT; };
+		C263FACE1BC41518004AE359 /* ZLZHelperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLZHelperManager.m; sourceTree = SOURCE_ROOT; };
 		C28FA54C1BC4003400D416BB /* ChemistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistModel.h; sourceTree = "<group>"; };
 		C28FA54D1BC4003400D416BB /* ChemistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChemistModel.m; sourceTree = "<group>"; };
 		C28FA54E1BC4003400D416BB /* ChemistThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistThree.h; sourceTree = "<group>"; };
@@ -127,6 +132,10 @@
 		C28FA5591BC4003400D416BB /* DrugTwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugTwoModel.m; sourceTree = "<group>"; };
 		C28FA5621BC4042200D416BB /* MineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
 		C28FA5631BC4042200D416BB /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
+		C2A00E4D1BC414090096933E /* AreaHospitallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaHospitallModel.h; sourceTree = "<group>"; };
+		C2A00E4E1BC414090096933E /* AreaHospitallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaHospitallModel.m; sourceTree = "<group>"; };
+		C2A00E4F1BC414090096933E /* NearHospitallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearHospitallModel.h; sourceTree = "<group>"; };
+		C2A00E501BC414090096933E /* NearHospitallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearHospitallModel.m; sourceTree = "<group>"; };
 		C2D302CA1BC3C3E800E8F9E7 /* PocketMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D302D91BC3C3E900E8F9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D302DC1BC3C3E900E8F9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -487,6 +496,10 @@
 		C23D7D6F1BC3EDED00C0F7DE /* model */ = {
 			isa = PBXGroup;
 			children = (
+				C2A00E4D1BC414090096933E /* AreaHospitallModel.h */,
+				C2A00E4E1BC414090096933E /* AreaHospitallModel.m */,
+				C2A00E4F1BC414090096933E /* NearHospitallModel.h */,
+				C2A00E501BC414090096933E /* NearHospitallModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -494,8 +507,18 @@
 		C23D7D701BC3EDED00C0F7DE /* view */ = {
 			isa = PBXGroup;
 			children = (
+				C263FACC1BC414DE004AE359 /* zlzhelper */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		C263FACC1BC414DE004AE359 /* zlzhelper */ = {
+			isa = PBXGroup;
+			children = (
+				C263FACD1BC41518004AE359 /* ZLZHelperManager.h */,
+				C263FACE1BC41518004AE359 /* ZLZHelperManager.m */,
+			);
+			name = zlzhelper;
 			sourceTree = "<group>";
 		};
 		C28FA54A1BC4002C00D416BB /* model */ = {
@@ -890,8 +913,10 @@
 				C2F079521BC40BA900C72BFF /* SDWebImageDownloaderOperation.m in Sources */,
 				C23D7D711BC3EDED00C0F7DE /* TabBarRootVC.m in Sources */,
 				C2F079531BC40BA900C72BFF /* SDWebImageManager+MJ.m in Sources */,
+				C2A00E511BC414090096933E /* AreaHospitallModel.m in Sources */,
 				C2F079761BC40BB500C72BFF /* AFURLConnectionOperation.m in Sources */,
 				C2F079AF1BC40BC800C72BFF /* MJRefreshBaseView.m in Sources */,
+				C2A00E521BC414090096933E /* NearHospitallModel.m in Sources */,
 				C2F0794E1BC40BA900C72BFF /* SDImageCache.m in Sources */,
 				C2F0799B1BC40BBE00C72BFF /* NSObject+MJKeyValue.m in Sources */,
 				C2F079991BC40BBE00C72BFF /* MJTypeEncoding.m in Sources */,
@@ -919,6 +944,7 @@
 				C2F079541BC40BA900C72BFF /* SDWebImageManager.m in Sources */,
 				C28FA55D1BC4003400D416BB /* DiseaseModel.m in Sources */,
 				C2F079DC1BC4100100C72BFF /* NearbyController.m in Sources */,
+				C263FACF1BC41518004AE359 /* ZLZHelperManager.m in Sources */,
 				C2F0795B1BC40BA900C72BFF /* UIImageView+WebCache.m in Sources */,
 				C2F079CF1BC40BDD00C72BFF /* MBProgressHUD.m in Sources */,
 				C2F079941BC40BBE00C72BFF /* MJFoundation.m in Sources */,
