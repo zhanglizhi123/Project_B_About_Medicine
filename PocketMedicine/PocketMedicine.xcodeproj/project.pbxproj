@@ -13,7 +13,6 @@
 		C23D7D771BC3EF4D00C0F7DE /* TDnavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D761BC3EF4D00C0F7DE /* TDnavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D7A1BC3EFDA00C0F7DE /* ToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D791BC3EFDA00C0F7DE /* ToolController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D7D1BC3EFFA00C0F7DE /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */; settings = {ASSET_TAGS = (); }; };
-		C23D7D801BC3F02300C0F7DE /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D7F1BC3F02300C0F7DE /* MineController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D831BC3F04000C0F7DE /* NearbyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D821BC3F04000C0F7DE /* NearbyController.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55A1BC4003400D416BB /* ChemistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54D1BC4003400D416BB /* ChemistModel.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55B1BC4003400D416BB /* ChemistThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54F1BC4003400D416BB /* ChemistThree.m */; settings = {ASSET_TAGS = (); }; };
@@ -22,6 +21,7 @@
 		C28FA55E1BC4003400D416BB /* DiseaseTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5551BC4003400D416BB /* DiseaseTwoModel.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55F1BC4003400D416BB /* DrugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5571BC4003400D416BB /* DrugModel.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA5601BC4003400D416BB /* DrugTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5591BC4003400D416BB /* DrugTwoModel.m */; settings = {ASSET_TAGS = (); }; };
+		C28FA5641BC4042200D416BB /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5631BC4042200D416BB /* MineController.m */; settings = {ASSET_TAGS = (); }; };
 		C2D302DA1BC3C3E900E8F9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D302D91BC3C3E900E8F9E7 /* Assets.xcassets */; };
 		C2D302DD1BC3C3E900E8F9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D302DB1BC3C3E900E8F9E7 /* LaunchScreen.storyboard */; };
 		C2D302E81BC3C3E900E8F9E7 /* PocketMedicineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D302E71BC3C3E900E8F9E7 /* PocketMedicineTests.m */; };
@@ -57,8 +57,6 @@
 		C23D7D791BC3EFDA00C0F7DE /* ToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolController.m; sourceTree = "<group>"; };
 		C23D7D7B1BC3EFFA00C0F7DE /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
 		C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
-		C23D7D7E1BC3F02300C0F7DE /* MineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineController.h; path = ../MineController.h; sourceTree = "<group>"; };
-		C23D7D7F1BC3F02300C0F7DE /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineController.m; path = ../MineController.m; sourceTree = "<group>"; };
 		C23D7D811BC3F04000C0F7DE /* NearbyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearbyController.h; path = ../NearbyController.h; sourceTree = "<group>"; };
 		C23D7D821BC3F04000C0F7DE /* NearbyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearbyController.m; path = ../NearbyController.m; sourceTree = "<group>"; };
 		C28FA54C1BC4003400D416BB /* ChemistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistModel.h; sourceTree = "<group>"; };
@@ -75,6 +73,8 @@
 		C28FA5571BC4003400D416BB /* DrugModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugModel.m; sourceTree = "<group>"; };
 		C28FA5581BC4003400D416BB /* DrugTwoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugTwoModel.h; sourceTree = "<group>"; };
 		C28FA5591BC4003400D416BB /* DrugTwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugTwoModel.m; sourceTree = "<group>"; };
+		C28FA5621BC4042200D416BB /* MineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineController.h; sourceTree = "<group>"; };
+		C28FA5631BC4042200D416BB /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
 		C2D302CA1BC3C3E800E8F9E7 /* PocketMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D302D91BC3C3E900E8F9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D302DC1BC3C3E900E8F9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -273,20 +273,11 @@
 		C23D7D691BC3EDED00C0F7DE /* mine */ = {
 			isa = PBXGroup;
 			children = (
-				C23D7D6A1BC3EDED00C0F7DE /* controller */,
+				C28FA5611BC4041400D416BB /* controller */,
 				C23D7D6B1BC3EDED00C0F7DE /* model */,
 				C23D7D6C1BC3EDED00C0F7DE /* view */,
 			);
 			path = mine;
-			sourceTree = "<group>";
-		};
-		C23D7D6A1BC3EDED00C0F7DE /* controller */ = {
-			isa = PBXGroup;
-			children = (
-				C23D7D7E1BC3F02300C0F7DE /* MineController.h */,
-				C23D7D7F1BC3F02300C0F7DE /* MineController.m */,
-			);
-			path = controller;
 			sourceTree = "<group>";
 		};
 		C23D7D6B1BC3EDED00C0F7DE /* model */ = {
@@ -362,6 +353,15 @@
 			children = (
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		C28FA5611BC4041400D416BB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C28FA5621BC4042200D416BB /* MineController.h */,
+				C28FA5631BC4042200D416BB /* MineController.m */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		C2D302C11BC3C3E800E8F9E7 = {
@@ -563,8 +563,8 @@
 				C28FA55C1BC4003400D416BB /* ChemistTowModel.m in Sources */,
 				C28FA55A1BC4003400D416BB /* ChemistModel.m in Sources */,
 				C28FA55F1BC4003400D416BB /* DrugModel.m in Sources */,
+				C28FA5641BC4042200D416BB /* MineController.m in Sources */,
 				C23D7D7D1BC3EFFA00C0F7DE /* MessageController.m in Sources */,
-				C23D7D801BC3F02300C0F7DE /* MineController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
