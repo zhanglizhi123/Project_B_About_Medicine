@@ -15,6 +15,13 @@
 		C23D7D7D1BC3EFFA00C0F7DE /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D801BC3F02300C0F7DE /* MineController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D7F1BC3F02300C0F7DE /* MineController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D831BC3F04000C0F7DE /* NearbyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D821BC3F04000C0F7DE /* NearbyController.m */; settings = {ASSET_TAGS = (); }; };
+		C28FA55A1BC4003400D416BB /* ChemistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54D1BC4003400D416BB /* ChemistModel.m */; settings = {ASSET_TAGS = (); }; };
+		C28FA55B1BC4003400D416BB /* ChemistThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54F1BC4003400D416BB /* ChemistThree.m */; settings = {ASSET_TAGS = (); }; };
+		C28FA55C1BC4003400D416BB /* ChemistTowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5511BC4003400D416BB /* ChemistTowModel.m */; settings = {ASSET_TAGS = (); }; };
+		C28FA55D1BC4003400D416BB /* DiseaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5531BC4003400D416BB /* DiseaseModel.m */; settings = {ASSET_TAGS = (); }; };
+		C28FA55E1BC4003400D416BB /* DiseaseTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5551BC4003400D416BB /* DiseaseTwoModel.m */; settings = {ASSET_TAGS = (); }; };
+		C28FA55F1BC4003400D416BB /* DrugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5571BC4003400D416BB /* DrugModel.m */; settings = {ASSET_TAGS = (); }; };
+		C28FA5601BC4003400D416BB /* DrugTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5591BC4003400D416BB /* DrugTwoModel.m */; settings = {ASSET_TAGS = (); }; };
 		C2D302DA1BC3C3E900E8F9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D302D91BC3C3E900E8F9E7 /* Assets.xcassets */; };
 		C2D302DD1BC3C3E900E8F9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D302DB1BC3C3E900E8F9E7 /* LaunchScreen.storyboard */; };
 		C2D302E81BC3C3E900E8F9E7 /* PocketMedicineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D302E71BC3C3E900E8F9E7 /* PocketMedicineTests.m */; };
@@ -54,6 +61,20 @@
 		C23D7D7F1BC3F02300C0F7DE /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineController.m; path = ../MineController.m; sourceTree = "<group>"; };
 		C23D7D811BC3F04000C0F7DE /* NearbyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearbyController.h; path = ../NearbyController.h; sourceTree = "<group>"; };
 		C23D7D821BC3F04000C0F7DE /* NearbyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearbyController.m; path = ../NearbyController.m; sourceTree = "<group>"; };
+		C28FA54C1BC4003400D416BB /* ChemistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistModel.h; sourceTree = "<group>"; };
+		C28FA54D1BC4003400D416BB /* ChemistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChemistModel.m; sourceTree = "<group>"; };
+		C28FA54E1BC4003400D416BB /* ChemistThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistThree.h; sourceTree = "<group>"; };
+		C28FA54F1BC4003400D416BB /* ChemistThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChemistThree.m; sourceTree = "<group>"; };
+		C28FA5501BC4003400D416BB /* ChemistTowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistTowModel.h; sourceTree = "<group>"; };
+		C28FA5511BC4003400D416BB /* ChemistTowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChemistTowModel.m; sourceTree = "<group>"; };
+		C28FA5521BC4003400D416BB /* DiseaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseModel.h; sourceTree = "<group>"; };
+		C28FA5531BC4003400D416BB /* DiseaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseModel.m; sourceTree = "<group>"; };
+		C28FA5541BC4003400D416BB /* DiseaseTwoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseTwoModel.h; sourceTree = "<group>"; };
+		C28FA5551BC4003400D416BB /* DiseaseTwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseTwoModel.m; sourceTree = "<group>"; };
+		C28FA5561BC4003400D416BB /* DrugModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugModel.h; sourceTree = "<group>"; };
+		C28FA5571BC4003400D416BB /* DrugModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugModel.m; sourceTree = "<group>"; };
+		C28FA5581BC4003400D416BB /* DrugTwoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugTwoModel.h; sourceTree = "<group>"; };
+		C28FA5591BC4003400D416BB /* DrugTwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugTwoModel.m; sourceTree = "<group>"; };
 		C2D302CA1BC3C3E800E8F9E7 /* PocketMedicine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketMedicine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D302D91BC3C3E900E8F9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D302DC1BC3C3E900E8F9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -138,9 +159,9 @@
 		C23D7D531BC3EDED00C0F7DE /* healthTool */ = {
 			isa = PBXGroup;
 			children = (
+				C28FA54A1BC4002C00D416BB /* model */,
+				C28FA54B1BC4002C00D416BB /* view */,
 				C23D7D541BC3EDED00C0F7DE /* controller */,
-				C23D7D551BC3EDED00C0F7DE /* model */,
-				C23D7D561BC3EDED00C0F7DE /* view */,
 			);
 			path = healthTool;
 			sourceTree = "<group>";
@@ -152,20 +173,6 @@
 				C23D7D791BC3EFDA00C0F7DE /* ToolController.m */,
 			);
 			path = controller;
-			sourceTree = "<group>";
-		};
-		C23D7D551BC3EDED00C0F7DE /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		C23D7D561BC3EDED00C0F7DE /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		C23D7D571BC3EDED00C0F7DE /* main */ = {
@@ -323,6 +330,34 @@
 			sourceTree = "<group>";
 		};
 		C23D7D701BC3EDED00C0F7DE /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C28FA54A1BC4002C00D416BB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C28FA54C1BC4003400D416BB /* ChemistModel.h */,
+				C28FA54D1BC4003400D416BB /* ChemistModel.m */,
+				C28FA54E1BC4003400D416BB /* ChemistThree.h */,
+				C28FA54F1BC4003400D416BB /* ChemistThree.m */,
+				C28FA5501BC4003400D416BB /* ChemistTowModel.h */,
+				C28FA5511BC4003400D416BB /* ChemistTowModel.m */,
+				C28FA5521BC4003400D416BB /* DiseaseModel.h */,
+				C28FA5531BC4003400D416BB /* DiseaseModel.m */,
+				C28FA5541BC4003400D416BB /* DiseaseTwoModel.h */,
+				C28FA5551BC4003400D416BB /* DiseaseTwoModel.m */,
+				C28FA5561BC4003400D416BB /* DrugModel.h */,
+				C28FA5571BC4003400D416BB /* DrugModel.m */,
+				C28FA5581BC4003400D416BB /* DrugTwoModel.h */,
+				C28FA5591BC4003400D416BB /* DrugTwoModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C28FA54B1BC4002C00D416BB /* view */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -517,10 +552,17 @@
 			files = (
 				C23D7D711BC3EDED00C0F7DE /* TabBarRootVC.m in Sources */,
 				C23D7D741BC3EDED00C0F7DE /* main.m in Sources */,
+				C28FA55B1BC4003400D416BB /* ChemistThree.m in Sources */,
 				C23D7D831BC3F04000C0F7DE /* NearbyController.m in Sources */,
+				C28FA55E1BC4003400D416BB /* DiseaseTwoModel.m in Sources */,
+				C28FA55D1BC4003400D416BB /* DiseaseModel.m in Sources */,
 				C23D7D731BC3EDED00C0F7DE /* AppDelegate.m in Sources */,
 				C23D7D771BC3EF4D00C0F7DE /* TDnavigationController.m in Sources */,
 				C23D7D7A1BC3EFDA00C0F7DE /* ToolController.m in Sources */,
+				C28FA5601BC4003400D416BB /* DrugTwoModel.m in Sources */,
+				C28FA55C1BC4003400D416BB /* ChemistTowModel.m in Sources */,
+				C28FA55A1BC4003400D416BB /* ChemistModel.m in Sources */,
+				C28FA55F1BC4003400D416BB /* DrugModel.m in Sources */,
 				C23D7D7D1BC3EFFA00C0F7DE /* MessageController.m in Sources */,
 				C23D7D801BC3F02300C0F7DE /* MineController.m in Sources */,
 			);
