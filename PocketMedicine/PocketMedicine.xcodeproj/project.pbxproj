@@ -13,7 +13,6 @@
 		C23D7D771BC3EF4D00C0F7DE /* TDnavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D761BC3EF4D00C0F7DE /* TDnavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D7A1BC3EFDA00C0F7DE /* ToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D791BC3EFDA00C0F7DE /* ToolController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D7D1BC3EFFA00C0F7DE /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */; settings = {ASSET_TAGS = (); }; };
-		C23D7D831BC3F04000C0F7DE /* NearbyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D821BC3F04000C0F7DE /* NearbyController.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55A1BC4003400D416BB /* ChemistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54D1BC4003400D416BB /* ChemistModel.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55B1BC4003400D416BB /* ChemistThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54F1BC4003400D416BB /* ChemistThree.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55C1BC4003400D416BB /* ChemistTowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5511BC4003400D416BB /* ChemistTowModel.m */; settings = {ASSET_TAGS = (); }; };
@@ -79,6 +78,8 @@
 		C2F079CD1BC40BDD00C72BFF /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F079C91BC40BDD00C72BFF /* MBProgressHUD+MJ.m */; settings = {ASSET_TAGS = (); }; };
 		C2F079CE1BC40BDD00C72BFF /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2F079CA1BC40BDD00C72BFF /* MBProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
 		C2F079CF1BC40BDD00C72BFF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F079CC1BC40BDD00C72BFF /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		C2F079DC1BC4100100C72BFF /* NearbyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F079DB1BC4100100C72BFF /* NearbyController.m */; settings = {ASSET_TAGS = (); }; };
+		C2F079DF1BC4103E00C72BFF /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F079DE1BC4103E00C72BFF /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,8 +111,6 @@
 		C23D7D791BC3EFDA00C0F7DE /* ToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolController.m; sourceTree = "<group>"; };
 		C23D7D7B1BC3EFFA00C0F7DE /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
 		C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
-		C23D7D811BC3F04000C0F7DE /* NearbyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NearbyController.h; path = ../NearbyController.h; sourceTree = "<group>"; };
-		C23D7D821BC3F04000C0F7DE /* NearbyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NearbyController.m; path = ../NearbyController.m; sourceTree = "<group>"; };
 		C28FA54C1BC4003400D416BB /* ChemistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistModel.h; sourceTree = "<group>"; };
 		C28FA54D1BC4003400D416BB /* ChemistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChemistModel.m; sourceTree = "<group>"; };
 		C28FA54E1BC4003400D416BB /* ChemistThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistThree.h; sourceTree = "<group>"; };
@@ -247,6 +246,9 @@
 		C2F079CA1BC40BDD00C72BFF /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		C2F079CB1BC40BDD00C72BFF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		C2F079CC1BC40BDD00C72BFF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C2F079DA1BC4100100C72BFF /* NearbyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyController.h; sourceTree = "<group>"; };
+		C2F079DB1BC4100100C72BFF /* NearbyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyController.m; sourceTree = "<group>"; };
+		C2F079DE1BC4103E00C72BFF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F079DF1BC4103E00C72BFF /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,8 +478,8 @@
 		C23D7D6E1BC3EDED00C0F7DE /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				C23D7D811BC3F04000C0F7DE /* NearbyController.h */,
-				C23D7D821BC3F04000C0F7DE /* NearbyController.m */,
+				C2F079DA1BC4100100C72BFF /* NearbyController.h */,
+				C2F079DB1BC4100100C72BFF /* NearbyController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -555,6 +558,7 @@
 		C2D302CC1BC3C3E800E8F9E7 /* PocketMedicine */ = {
 			isa = PBXGroup;
 			children = (
+				C2F079DD1BC4102D00C72BFF /* foundation */,
 				C23D7D4E1BC3EDEC00C0F7DE /* class */,
 				C2D302CD1BC3C3E800E8F9E7 /* Supporting Files */,
 			);
@@ -740,6 +744,14 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		C2F079DD1BC4102D00C72BFF /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C2F079DE1BC4103E00C72BFF /* libsqlite3.0.tbd */,
+			);
+			path = foundation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -896,7 +908,6 @@
 				C2F0799A1BC40BBE00C72BFF /* NSObject+MJCoding.m in Sources */,
 				C28FA55B1BC4003400D416BB /* ChemistThree.m in Sources */,
 				C2F079931BC40BBE00C72BFF /* MJConst.m in Sources */,
-				C23D7D831BC3F04000C0F7DE /* NearbyController.m in Sources */,
 				C2F079741BC40BB500C72BFF /* AFNetworkReachabilityManager.m in Sources */,
 				C2F079B11BC40BC800C72BFF /* MJRefreshFooterView.m in Sources */,
 				C2F079781BC40BB500C72BFF /* AFURLResponseSerialization.m in Sources */,
@@ -907,6 +918,7 @@
 				C2F079731BC40BB500C72BFF /* AFHTTPSessionManager.m in Sources */,
 				C2F079541BC40BA900C72BFF /* SDWebImageManager.m in Sources */,
 				C28FA55D1BC4003400D416BB /* DiseaseModel.m in Sources */,
+				C2F079DC1BC4100100C72BFF /* NearbyController.m in Sources */,
 				C2F0795B1BC40BA900C72BFF /* UIImageView+WebCache.m in Sources */,
 				C2F079CF1BC40BDD00C72BFF /* MBProgressHUD.m in Sources */,
 				C2F079941BC40BBE00C72BFF /* MJFoundation.m in Sources */,
