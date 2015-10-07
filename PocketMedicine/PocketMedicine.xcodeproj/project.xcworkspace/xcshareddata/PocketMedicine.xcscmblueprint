@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A30206BB9BEF0020E0B4905833EB3AF845231776",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A30206BB9BEF0020E0B4905833EB3AF845231776" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1EFC4112-5F94-43A9-9AEC-B74D458095A9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A30206BB9BEF0020E0B4905833EB3AF845231776" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PocketMedicine",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PocketMedicine\/PocketMedicine.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhanglizhi123\/Project_B_About_Medicine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A30206BB9BEF0020E0B4905833EB3AF845231776"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhanglizhi123\/Project_B_About_Medicine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A30206BB9BEF0020E0B4905833EB3AF845231776"
+    }
+  ]
+}
