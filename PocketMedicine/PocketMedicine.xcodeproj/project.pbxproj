@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C222C3321BC4ABDD00BDFA9B /* ZLZHelperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C222C3311BC4ABDD00BDFA9B /* ZLZHelperManager.m */; settings = {ASSET_TAGS = (); }; };
+		C222C3361BC4AF6300BDFA9B /* sanjiaodown.png in Resources */ = {isa = PBXBuildFile; fileRef = C222C3341BC4AF6300BDFA9B /* sanjiaodown.png */; settings = {ASSET_TAGS = (); }; };
+		C222C3371BC4AF6300BDFA9B /* sanjiaoup.png in Resources */ = {isa = PBXBuildFile; fileRef = C222C3351BC4AF6300BDFA9B /* sanjiaoup.png */; settings = {ASSET_TAGS = (); }; };
+		C222C33B1BC4AFCC00BDFA9B /* NearbyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C222C3391BC4AFCC00BDFA9B /* NearbyController.m */; settings = {ASSET_TAGS = (); }; };
+		C222C33C1BC4AFCC00BDFA9B /* NearbyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C222C33A1BC4AFCC00BDFA9B /* NearbyController.xib */; settings = {ASSET_TAGS = (); }; };
+		C222C34A1BC4FCBC00BDFA9B /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = C222C3491BC4FCBC00BDFA9B /* area.plist */; settings = {ASSET_TAGS = (); }; };
 		C23D7D711BC3EDED00C0F7DE /* TabBarRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D5A1BC3EDED00C0F7DE /* TabBarRootVC.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D731BC3EDED00C0F7DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D5F1BC3EDED00C0F7DE /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D741BC3EDED00C0F7DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D601BC3EDED00C0F7DE /* main.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D771BC3EF4D00C0F7DE /* TDnavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D761BC3EF4D00C0F7DE /* TDnavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D7A1BC3EFDA00C0F7DE /* ToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D791BC3EFDA00C0F7DE /* ToolController.m */; settings = {ASSET_TAGS = (); }; };
 		C23D7D7D1BC3EFFA00C0F7DE /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */; settings = {ASSET_TAGS = (); }; };
-		C263FACF1BC41518004AE359 /* ZLZHelperManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C263FACE1BC41518004AE359 /* ZLZHelperManager.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55A1BC4003400D416BB /* ChemistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54D1BC4003400D416BB /* ChemistModel.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55B1BC4003400D416BB /* ChemistThree.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA54F1BC4003400D416BB /* ChemistThree.m */; settings = {ASSET_TAGS = (); }; };
 		C28FA55C1BC4003400D416BB /* ChemistTowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C28FA5511BC4003400D416BB /* ChemistTowModel.m */; settings = {ASSET_TAGS = (); }; };
@@ -81,7 +86,6 @@
 		C2F079CD1BC40BDD00C72BFF /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F079C91BC40BDD00C72BFF /* MBProgressHUD+MJ.m */; settings = {ASSET_TAGS = (); }; };
 		C2F079CE1BC40BDD00C72BFF /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C2F079CA1BC40BDD00C72BFF /* MBProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
 		C2F079CF1BC40BDD00C72BFF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F079CC1BC40BDD00C72BFF /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
-		C2F079DC1BC4100100C72BFF /* NearbyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F079DB1BC4100100C72BFF /* NearbyController.m */; settings = {ASSET_TAGS = (); }; };
 		C2F079DF1BC4103E00C72BFF /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F079DE1BC4103E00C72BFF /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +107,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C222C3301BC4ABDD00BDFA9B /* ZLZHelperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLZHelperManager.h; sourceTree = "<group>"; };
+		C222C3311BC4ABDD00BDFA9B /* ZLZHelperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLZHelperManager.m; sourceTree = "<group>"; };
+		C222C3341BC4AF6300BDFA9B /* sanjiaodown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanjiaodown.png; sourceTree = "<group>"; };
+		C222C3351BC4AF6300BDFA9B /* sanjiaoup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanjiaoup.png; sourceTree = "<group>"; };
+		C222C3381BC4AFCC00BDFA9B /* NearbyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyController.h; sourceTree = "<group>"; };
+		C222C3391BC4AFCC00BDFA9B /* NearbyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyController.m; sourceTree = "<group>"; };
+		C222C33A1BC4AFCC00BDFA9B /* NearbyController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearbyController.xib; sourceTree = "<group>"; };
+		C222C3491BC4FCBC00BDFA9B /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 		C23D7D591BC3EDED00C0F7DE /* TabBarRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarRootVC.h; sourceTree = "<group>"; };
 		C23D7D5A1BC3EDED00C0F7DE /* TabBarRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarRootVC.m; sourceTree = "<group>"; };
 		C23D7D5E1BC3EDED00C0F7DE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,8 +126,6 @@
 		C23D7D791BC3EFDA00C0F7DE /* ToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolController.m; sourceTree = "<group>"; };
 		C23D7D7B1BC3EFFA00C0F7DE /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
 		C23D7D7C1BC3EFFA00C0F7DE /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
-		C263FACD1BC41518004AE359 /* ZLZHelperManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLZHelperManager.h; sourceTree = SOURCE_ROOT; };
-		C263FACE1BC41518004AE359 /* ZLZHelperManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLZHelperManager.m; sourceTree = SOURCE_ROOT; };
 		C28FA54C1BC4003400D416BB /* ChemistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistModel.h; sourceTree = "<group>"; };
 		C28FA54D1BC4003400D416BB /* ChemistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChemistModel.m; sourceTree = "<group>"; };
 		C28FA54E1BC4003400D416BB /* ChemistThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChemistThree.h; sourceTree = "<group>"; };
@@ -255,8 +265,6 @@
 		C2F079CA1BC40BDD00C72BFF /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		C2F079CB1BC40BDD00C72BFF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		C2F079CC1BC40BDD00C72BFF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		C2F079DA1BC4100100C72BFF /* NearbyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyController.h; sourceTree = "<group>"; };
-		C2F079DB1BC4100100C72BFF /* NearbyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyController.m; sourceTree = "<group>"; };
 		C2F079DE1BC4103E00C72BFF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -286,10 +294,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C222C32E1BC4ABDD00BDFA9B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C222C32F1BC4ABDD00BDFA9B /* zlzHelper */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		C222C32F1BC4ABDD00BDFA9B /* zlzHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C222C3301BC4ABDD00BDFA9B /* ZLZHelperManager.h */,
+				C222C3311BC4ABDD00BDFA9B /* ZLZHelperManager.m */,
+			);
+			path = zlzHelper;
+			sourceTree = "<group>";
+		};
+		C222C3331BC4AF6300BDFA9B /* zlz_tu */ = {
+			isa = PBXGroup;
+			children = (
+				C222C3491BC4FCBC00BDFA9B /* area.plist */,
+				C222C3341BC4AF6300BDFA9B /* sanjiaodown.png */,
+				C222C3351BC4AF6300BDFA9B /* sanjiaoup.png */,
+			);
+			path = zlz_tu;
+			sourceTree = "<group>";
+		};
+		C222C33D1BC4C62C00BDFA9B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		C23D7D4E1BC3EDEC00C0F7DE /* class */ = {
 			isa = PBXGroup;
 			children = (
-				C23D7D4F1BC3EDED00C0F7DE /* custom */,
+				C222C32E1BC4ABDD00BDFA9B /* common */,
 				C23D7D531BC3EDED00C0F7DE /* healthTool */,
 				C23D7D571BC3EDED00C0F7DE /* main */,
 				C23D7D651BC3EDED00C0F7DE /* message */,
@@ -297,37 +339,6 @@
 				C23D7D6D1BC3EDED00C0F7DE /* nearby */,
 			);
 			path = class;
-			sourceTree = "<group>";
-		};
-		C23D7D4F1BC3EDED00C0F7DE /* custom */ = {
-			isa = PBXGroup;
-			children = (
-				C23D7D501BC3EDED00C0F7DE /* controller */,
-				C23D7D511BC3EDED00C0F7DE /* model */,
-				C23D7D521BC3EDED00C0F7DE /* view */,
-			);
-			path = custom;
-			sourceTree = "<group>";
-		};
-		C23D7D501BC3EDED00C0F7DE /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		C23D7D511BC3EDED00C0F7DE /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		C23D7D521BC3EDED00C0F7DE /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		C23D7D531BC3EDED00C0F7DE /* healthTool */ = {
@@ -479,7 +490,8 @@
 			children = (
 				C23D7D6E1BC3EDED00C0F7DE /* controller */,
 				C23D7D6F1BC3EDED00C0F7DE /* model */,
-				C23D7D701BC3EDED00C0F7DE /* view */,
+				C222C33D1BC4C62C00BDFA9B /* view */,
+				C222C3331BC4AF6300BDFA9B /* zlz_tu */,
 			);
 			path = nearby;
 			sourceTree = "<group>";
@@ -487,8 +499,9 @@
 		C23D7D6E1BC3EDED00C0F7DE /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				C2F079DA1BC4100100C72BFF /* NearbyController.h */,
-				C2F079DB1BC4100100C72BFF /* NearbyController.m */,
+				C222C3381BC4AFCC00BDFA9B /* NearbyController.h */,
+				C222C3391BC4AFCC00BDFA9B /* NearbyController.m */,
+				C222C33A1BC4AFCC00BDFA9B /* NearbyController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -502,23 +515,6 @@
 				C2A00E501BC414090096933E /* NearHospitallModel.m */,
 			);
 			path = model;
-			sourceTree = "<group>";
-		};
-		C23D7D701BC3EDED00C0F7DE /* view */ = {
-			isa = PBXGroup;
-			children = (
-				C263FACC1BC414DE004AE359 /* zlzhelper */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		C263FACC1BC414DE004AE359 /* zlzhelper */ = {
-			isa = PBXGroup;
-			children = (
-				C263FACD1BC41518004AE359 /* ZLZHelperManager.h */,
-				C263FACE1BC41518004AE359 /* ZLZHelperManager.m */,
-			);
-			name = zlzhelper;
 			sourceTree = "<group>";
 		};
 		C28FA54A1BC4002C00D416BB /* model */ = {
@@ -878,9 +874,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C222C3371BC4AF6300BDFA9B /* sanjiaoup.png in Resources */,
 				C2D302DD1BC3C3E900E8F9E7 /* LaunchScreen.storyboard in Resources */,
+				C222C33C1BC4AFCC00BDFA9B /* NearbyController.xib in Resources */,
 				C2F079CE1BC40BDD00C72BFF /* MBProgressHUD.bundle in Resources */,
 				C2D302DA1BC3C3E900E8F9E7 /* Assets.xcassets in Resources */,
+				C222C34A1BC4FCBC00BDFA9B /* area.plist in Resources */,
+				C222C3361BC4AF6300BDFA9B /* sanjiaodown.png in Resources */,
 				C2F079AE1BC40BC800C72BFF /* MJRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -943,8 +943,7 @@
 				C2F079731BC40BB500C72BFF /* AFHTTPSessionManager.m in Sources */,
 				C2F079541BC40BA900C72BFF /* SDWebImageManager.m in Sources */,
 				C28FA55D1BC4003400D416BB /* DiseaseModel.m in Sources */,
-				C2F079DC1BC4100100C72BFF /* NearbyController.m in Sources */,
-				C263FACF1BC41518004AE359 /* ZLZHelperManager.m in Sources */,
+				C222C3321BC4ABDD00BDFA9B /* ZLZHelperManager.m in Sources */,
 				C2F0795B1BC40BA900C72BFF /* UIImageView+WebCache.m in Sources */,
 				C2F079CF1BC40BDD00C72BFF /* MBProgressHUD.m in Sources */,
 				C2F079941BC40BBE00C72BFF /* MJFoundation.m in Sources */,
@@ -957,6 +956,7 @@
 				C2F079921BC40BBE00C72BFF /* MJArgument.m in Sources */,
 				C2F0794D1BC40BA900C72BFF /* NSData+ImageContentType.m in Sources */,
 				C2F0795A1BC40BA900C72BFF /* UIImageView+HighlightedWebCache.m in Sources */,
+				C222C33B1BC4AFCC00BDFA9B /* NearbyController.m in Sources */,
 				C2F079501BC40BA900C72BFF /* SDWebImageDecoder.m in Sources */,
 				C2F079C41BC40BD200C72BFF /* FMDatabasePool.m in Sources */,
 				C2F079711BC40BB500C72BFF /* AFHTTPRequestOperation.m in Sources */,
